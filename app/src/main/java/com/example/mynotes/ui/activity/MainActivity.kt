@@ -23,13 +23,13 @@ class MainActivity : Activity(){
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.adapter = ListaProdutoAdapter(context = this, produto = listOf(
-            Produto(nota1 = "ai que fome",
-                nota2 = "roda pelamordedeus",
-                nota3 = "puravô"
+            Produto(nota1 = "exemplo: lista de compras",
+                nota2 = "viagens para 2023",
+                nota3 = "pizzarias locais"
             ),
-            Produto(nota1 = "ai que fomeeeeeeeeeeeeee",
-                nota2 = "aaaaaaaaaaaaaaaaaaaaaaa",
-                nota3 = "deu trabalho ein!"
+            Produto(nota1 = "lista de videos",
+                nota2 = "exercicios do dia",
+                nota3 = "não esquecer!"
             ),
         ))
        // recyclerView.layoutManager = LinearLayoutManager(this)
