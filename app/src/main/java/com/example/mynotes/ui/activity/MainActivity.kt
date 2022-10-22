@@ -3,17 +3,17 @@ package com.example.mynotes.ui.activity
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mynotes.R
 import com.example.mynotes.model.Produto
 import com.example.mynotes.ui.recyclerview.adapter.ListaProdutoAdapter
 
-class MainActivity : Activity(){
+class MainActivity : AppCompatActivity(R.layout.activity_main){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
         //val nota1 = findViewById<TextView>(R.id.nota1)
         //nota1.text = "está chovendo"
         //val nota2 = findViewById<TextView>(R.id.nota2)
